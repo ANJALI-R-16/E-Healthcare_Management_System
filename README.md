@@ -1,3 +1,10 @@
+DISCLAIMER: This project is based on the original work by Om Thakkar
+All credits for the original development go to the original author - Om Thakkar. No ownership is claimed over the original work.
+This repository is a **learning-based implementation** of the original project.
+This repository is for **educational purposes only** and is not intended for commercial use.
+
+
+
 # E-Healthcare_Management_System
 The E-Healthcare Management System is created in Java and it is based on MVC (Model-View-Controller) architecture.
 
@@ -10,3 +17,5 @@ The E-Healthcare Management System is created in Java and it is based on MVC (Mo
 => All the dependies are included in the pom.xml file in the root folder.
 
 Structure of the project: -> There are 6 different packages used to seperate the code based on the MVC architecture. i) admin/servlet - It provides the logic for Adding the Doctor, Adding the Specialist, Admin Login, Admin Logout, Delete the Doctor and Update the details about the Doctor. ii) doctor/servlet - It provides the logic for Doctor Login, Doctor Logout, Changing the Password, Edit his/her profile, Update the Status regarding to a particular patient. iii) user/servlet - It provides the logic for taking the Appointment under a particular Doctor, User Login, User Logout, User Register, Change Password. iv) entity - The contructor and various getter/setter methods are defined in the entity package under the specific entity. v) db - It contains the DBConnect file in which the logic for connecting the application to the database is written. vi) dao - All the queries required for the CRUD operation is written in the dao package under the specific entity.
+
+
